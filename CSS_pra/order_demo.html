@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            column-gap: 10px; 
+            
+         }
+         .item1{
+            border: 2px solid #222;
+            background-color: #E8BD0D;
+            height: 50px;
+            width: 50px;
+        }
+        .main-container{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            
+        }
+        .item2{
+            border: 2px solid #222;
+            background-color: #E8BD0D;
+            height: 50px;
+            width: 50px;
+        }
+        .item3{
+            border: 2px solid #222;
+            background-color: #E8BD0D;
+            height: 50px;
+            width: 50px;
+            order:-2;
+        }
+        .item4{
+            border: 2px solid #222;
+            background-color: #E8BD0D;
+            height: 50px;
+            width: 50px;
+            order:-1;
+        }
+        .item{
+            border: 2px solid #222;
+            background-color: #E8BD0D;
+            height: 50px;
+            width: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+        <div class="item1">One</div>
+            <div class="item2">Two</div>
+            <div class="item3">Three</div>
+            <div class="item4">Four</div>
+            </div>
+            
+            <div class="container">
+                <div class="item">One</div>
+                    <div class="item">Two</div>
+                    <div class="item">Three</div>
+                    <div class="item">Four</div>
+                    </div>
+                    <div class="container">
+                        <div class="item">One</div>
+                            <div class="item">Two</div>
+                            <div class="item">Three</div>
+                            <div class="item">Four</div>
+                            </div>
+        </div>
+</body>
+</html>
