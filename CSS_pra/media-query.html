@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-query</title>
+</head>
+<style>
+    .box{
+        height: 70px;
+        width: 70px;
+        border: 1px solid #222;
+        text-align: center;
+        margin: 10px;
+        display: none;
+        
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    /* Extra small device */
+    @media (max-width: 600px){
+        
+        #one{
+            display: block;
+        }
+        
+    }
+    /* Small device */
+    @media (min-width: 600px) and (max-width:767px) {
+        #two{
+            display: block;
+        }
+       
+    }
+    /* Medium device */
+    @media (min-width: 767px) and (max-width:991px){
+        #three{
+            display: block;
+        }
+    }
+    /* Large device */
+    @media(min-width: 991px) and (max-width:1199px){
+        #four{
+            display: block;
+        }
+    }
+    /* Extra large device */
+    @media(min-width: 1200px){
+        #five{
+            display: block;
+        }
+    }
+</style>
+<body>
+    <div class="box" id="one">Extra Small size device</div>
+    <div class="box" id="two">Small device</div>
+    <div class="box" id="three">Medium device</div>
+    <div class="box" id="four">Large device</div>
+    <div class="box" id="five">Extra large device</div>
+</body>
+</html>
