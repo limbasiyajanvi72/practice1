@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="./queryselector.html">
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem, ipsum dolor.</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+    <p id="fsjs">Using Id</p>
+    <p class="fsjs2">Using class </p>
+
+    <ul>
+        <li class="tech">Javascript</li>
+        <li class="tech">HTML</li>
+        <li class="tech">CSS</li>
+    </ul>
+
+    <p id="js"></p>
+
+    <script>
+        let val=document.querySelector("h1");
+        console.log(val);
+
+        let val2=document.querySelector("#fsjs").innerHTML;
+        console.log("Access value by id",val2);
+
+        let val3=document.querySelector(".fsjs2").innerText;
+        console.log("Access value by id",val3);
+
+        alert("hello..");
+
+        setTimeout(()=>{
+            alert("hello developers..")
+        },10000);
+
+        let con=confirm("Are you sure?");
+        if (con) {
+            document.querySelector("#js").innerText="He pressed OK";
+        }
+        else{
+            document.querySelector("#js").innerHTML="He pressed cancel";
+        }
+    </script>
+</body>
+</html>
