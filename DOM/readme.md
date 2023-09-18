@@ -70,6 +70,8 @@ cl.appendChild(btn);
 
 ### 2.Task 1
 
+![Alt text](task1Output-1.png)
+
 solution:
 
 ```js
@@ -81,6 +83,8 @@ for (let i = 0; i < nodeList.length; i++) {
 
 ### 2.Task 2
 
+![Alt text](task2Output-1.png)
+
 solution:
 
 ```js
@@ -91,6 +95,8 @@ for (let i = 0; i < nodeList.length; i++) {
 ```
 
 ### Assignment 3
+
+![Alt text](task1Output-2.png)
 
 solution:
 
@@ -124,6 +130,8 @@ function updateMessage(e) {
 ```
 
 ### Assignment 4
+
+![Alt text](<DOM P1 SS.png>)
 
 Solution:
 
