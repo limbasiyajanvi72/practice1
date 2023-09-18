@@ -1,0 +1,98 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+nav div img{
+    height: 35px;
+    width: 100px;
+}
+.list-item{
+    list-style-type:none;
+}
+.navbar-container{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    width:1200px;
+    justify-content: space-between;
+}
+.list{
+    display:flex;
+    position: relative;
+    gap:20px;
+}
+.grow-list{
+    position: absolute;
+    left: 160px;
+    top:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+    color: #222;
+    font-weight: 500;
+}
+.button-group{
+    position: absolute;
+    right: 50px;
+}
+.nav-button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #5A20CB;
+    color:#d3d3d3;
+    border-radius:8px;
+    height: 40px;
+    font-size: 80%;
+    border : 1px solid #5A20CB;
+    align-content: center;
+    width:100px;
+}
+.btn{
+    width: 140px;
+    position: absolute;
+    top:450px;
+}
+.list-item~li{
+    color: #969696;
+}
+.banner-container{
+    margin-left:50px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 1000px;
+}
+.heading-text{
+    position: absolute;
+    top: 180px;
+    color:#120E43;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 270%;
+    height: 160px;
+    width: 275px;
+    text-align: left;
+    
+}
+.banner-container div img{
+    position: absolute;
+    top:90px;
+    right: 0px;
+    width: 700px;
+    height: 500px;
+}
+
+.description{
+    position: absolute;
+    top:370px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#969696;
+    font-size: 75%;
+}
+
+span{
+    color: #2827CC;
+}
+
+ 
+
+
