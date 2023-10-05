@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mx-0 my-0 px-0 py-0 box-border  ">
+    
+    <div class=" ">
+        <div class=" bg-[url('./Background.jpg')]  bg-cover bg-no-repeat flex justify-center min-h-screen min-w-screen items-center text-white font-sans font-light ">
+            <div class="shadow-2xl py-16 px-12 rounded-3xl border-white ">
+                <form action="" onsubmit="getData(event)">
+                    <input type="text" placeholder="Enter city name" id="inputBox" class="bg-sky-800 rounded-md p-1 ">
+                    <button type="submit">Search</button>
+                </form>
+
+        <section>
+            <div class="place-self-center text-4xl ">
+            <div class="flex justify-center p-3">
+                <img src="" alt="" id="logoImage" width="60px" height="60px" id="logoImage">
+                <p class=""><span id="temp" class="text-5xl"></span>&#8451;</p>
+            </div>
+                <p id="weatherStatus" class="text-center text-2xl font-bold">___</p>
+            </div>
+
+            <div class="text-center text-5xl p-3">
+                <span id="cityName" class="ml-2">___</span>
+            </div>
+
+            <div class="flex justify-center gap-x-5 p-4">
+                <div >
+                <span >Country:</span>
+                <span id="countryName" class="ml-2"> ___</span>
+                </div>
+                <div>
+                <span >State:</span>
+                <span id="stateName" class="ml-2">___</span>
+                </div>
+            </div>
+            
+
+            
+
+            <div class="flex justify-center gap-x-5 p-4">
+                <div >
+                <span >Humidity:</span>
+                <span id="humidity" class="ml-2"> ___</span>
+                </div>
+                <div>
+                <span >Wind Speed:</span> 
+                <span> <span id="windSpeed">___</span>KMH</span>
+                </div>
+            </div>
+        
+    
+    
+        
+
+        </section>
+        </div> 
+        </div>
+    </div>
+</body>
+
+</html>
