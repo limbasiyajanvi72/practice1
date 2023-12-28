@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+
+<body>
+        <div class=" bg-[url('./background_img.jpg')] p-0 m-0 box-border bg-cover bg-center bg-no-repeat  min-h-screen min-w-screen  text-white font-sans font-light ">
+            <div class=" py-10 px-9 flex justify-center items-center ">
+                <form action="" >
+                    <input type="text" placeholder="Enter city name" id="inputBox" class="bg-transparent rounded-md p-1 shadow-xl focus:border-0 text-xl focus:outline-0 w-80 h-12">
+                    <button type="submit" class="bg-transparent shadow-xl w-36 h-12 text-xl">Search</button>
+                </form>
+            </div>
+
+        <section class="">
+            <div class="text-4xl  py-10 px-9 flex md:flex md:justify-between">
+                <div>
+                <div class="flex whitespace-pre-line shadow-xl justify-center align-center">
+                    <img src="" alt="weather-logo" id="logoImage" class="w-24 text-2xl">
+                    <p class="p-6"><span id="temp" class="text-5xl"></span>&#8451;</p>
+                </div>
+                <span id="weatherStatus" class="text-2xl text-center py-3 shadow-xl block">weather-status</span>
+                </div>
+            
+                <div class=" pt-6 text-right md:text-right">
+                    <div id="cityName" class="ml-2 text-2xl shadow-xl block p-3 text-center md:text-5xl ">City</div>
+                    <div class="pt-3 div justify-center ml-2 text-xl shadow-xl text-center p-3">
+                        <span id="stateName">State</span>
+                        <span id="countryName" >Country</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <span id="date_time" class="text-2xl ml-11 shadow-xl">Date-time</span>   
+        </section>
+
+        <section class="grid grid-cols-4 gap-4 mx-7 md:grid-cols-6 lg:grid-cols-12 mt-4" id="forecast">
+            <!-- Time One -->
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+          
+            <!-- Time Two -->
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+            <div class="col-span-1 h-40 w-24 shadow-xl"></div>
+          </section>
+          
+
+    
+</body>
+
+</html>
