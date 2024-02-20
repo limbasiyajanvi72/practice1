@@ -1,0 +1,127 @@
+.heading-style{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: solid 3px black;
+    left: 0;
+    height: 9px;
+    bottom: -10px;
+    border-radius: 50%;
+}
+
+.heading-des{
+    margin-top: 20px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.btn-input-style{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.input-style{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.button-style{
+    background-color: #1F51FF;
+    color: #fff;
+    border:1px solid #1F51FF ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: -40px;
+}
+    
+.img-style{
+    margin-top: 30px;
+    height: 350px;
+    width: 600px;
+}
+
+.img-pos{
+    text-align: center;
+}
+.card-container{
+    position: relative;
+}
+.card-pos{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.round-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+
+.card-style{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.text-style{
+    font-size: small;
+    padding: 2px;
+}
+
+.head-style{
+    font-weight: 600;
+    font-size: medium;
+}
+.card-style-two{
+    position: relative;
+    margin-top: -30px;
+    z-index: 2;
+    background-color: #fff;
+    width: 330px;
+    height: 10px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-style-three{
+    margin-top: -50px;
+    position: relative;
+    background-color: #fff;
+    width: 300px;
+    height: 10px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tagline-style{
+    text-align: center;
+    font-weight: 700;
+}
+
+.logo-section{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
